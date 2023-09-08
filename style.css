@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    width: 450px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 60%;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: rgb(14, 142, 131);
+    box-shadow: 5px 5px 2px black;
+    height: 35px;
+    font-weight: bold;
+}
